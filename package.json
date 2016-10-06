@@ -1,0 +1,39 @@
+{
+  "name": "gspider",
+  "version": "0.0.1",
+  "description": "gSpider",
+  "main": "./lib",
+  "scripts": {
+    "test": "mocha tests/*.js tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kauegimenes/gspider.git"
+  },
+  "keywords": [
+    "spider",
+    "crawler",
+    "url",
+    "page",
+    "body",
+    "html",
+    "stream",
+    "event",
+    "events",
+    "auto"
+  ],
+  "author": "Kauê Gimenes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kauegimenes/gspider/issues"
+  },
+  "homepage": "https://github.com/kauegimenes/gspider",
+  "dependencies": {
+    "request": "^2.75.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0"
+  }
+}
